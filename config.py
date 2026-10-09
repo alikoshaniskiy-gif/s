@@ -1,0 +1,5 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8859862001:AAHr8TMTlDe7t040s3JZDs6bR2kTKrSYImU")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8731925710"))
+DATABASE_URL = os.getenv("DATABASE_URL", "")
